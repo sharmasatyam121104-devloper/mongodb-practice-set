@@ -56,3 +56,37 @@ db.products.insertMany([
         tags: ["gaming", "audio", "electronics"]
     }
 ])
+
+
+db.orders.insertMany([
+    {
+        user: "Rahul Sharma",
+        totalAmount: 80000,
+        status: "delivered",
+        orderDate: new Date("2025-02-10")
+    },
+    {
+        user: "Priya Singh",
+        totalAmount: 3000,
+        status: "pending",
+        orderDate: new Date("2025-03-01")
+    },
+    {
+        user: "Amit Verma",
+        totalAmount: 15000,
+        status: "cancelled",
+        orderDate: new Date("2024-12-15")
+    },
+    {
+        user: "Rahul Sharma",
+        totalAmount: 4500,
+        status: "delivered",
+        orderDate: new Date("2025-01-20")
+    },
+    {
+        user: "Sneha Gupta",
+        totalAmount: 1200,
+        status: "pending",
+        orderDate: new Date("2025-03-05")
+    }
+])
